@@ -47,6 +47,8 @@ const AddUser = (props) => {
     // setEnteredAge("");
 
     // Don't manipulate DOM using Refs except in this scenario
+    // When you used State, it is called controlled component or controlled approach (input field).
+    // When you used Refs, it is called uncontrolled components or uncontrolled approach(input field).
     usernameInputRef.current.value = "";
     ageInputRef.current.value = "";
   };
